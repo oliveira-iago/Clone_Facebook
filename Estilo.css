@@ -1,0 +1,134 @@
+.container, .row
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+div.logo
+{
+    text-align: left;
+    width: 602px; height: auto;
+    margin-left: 20px;
+}
+div.logo img
+{
+    width: 301px; height: auto;
+}
+
+div.logo h2
+{
+    width: 450px;
+    font-size: 28px;
+    font-weight: normal;
+    margin-left: 30px; margin-bottom: 90px;
+}
+
+div.login
+{
+    width: 400px; height: auto;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px rgb(128, 128, 128, 0.1);
+}
+div.login input
+{
+    width: 100%; height: 50px;
+    padding: 18px;
+    margin-bottom: 12px;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid rgb(128, 128, 128, 0.3);
+    font-size: 17px;
+    color: black;
+}
+div.login input::placeholder
+{
+    color: rgb(128, 128, 128, 0.9);
+}
+div.login input:focus
+{
+    border: 1px solid #1877f2;
+    outline-width: 0; /*Remove o efeito padrão de quando selecionado*/
+}
+#btn_login
+{
+    display: flex;
+    align-items: center;
+    width: 100%; height: 48px;
+    padding: 18px;
+    margin-bottom: 12px; margin-top: 5px;
+    background-color: #1877f2;
+    border-radius: 7px;
+    border: 0;
+}
+#btn_login:hover
+{
+    background-color: #176fe2;
+    cursor: pointer;
+    outline-width: 0; /*Remove o efeito padrão de quando selecionado*/
+}
+#btn_login span
+{
+    color: #FFF;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 600;
+}
+div.forgotPass
+{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+}
+div.forgotPass a
+{
+    font-size: 15px;
+    padding: 2px;
+}
+#btn_create
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    height: 48px;
+    padding: 18px;
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 12px;
+    background-color: #48B72A;
+    border-radius: 7px;
+    border: 0;
+}
+#btn_create:hover
+{
+    background-color: #41a525;
+    cursor: pointer;
+    outline-width: 0; /*Remove o efeito padrão de quando selecionado*/
+}
+#btn_create span
+{
+    color: #FFF;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 645;
+}
+div.page
+{
+    margin-top: 30px;
+}
+
+div.page a, div.page p
+{
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+    
+}
+div.page a 
+{
+    font-weight: 650;
+}
