@@ -9,7 +9,6 @@ div.logo
 {
     text-align: left;
     width: 100%; height: auto;
-    margin-left: 20px;
 }
 div.logo img
 {
@@ -21,7 +20,7 @@ div.logo h2
 {
     width: 100%;
     max-width: 466px;
-    font-size: 28px;
+    font-size: 2em;
     font-weight: normal;
     margin-left: 30px; margin-bottom: 90px;
 }
