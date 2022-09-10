@@ -8,17 +8,19 @@
 div.logo
 {
     text-align: left;
-    width: 602px; height: auto;
+    width: 100%; height: auto;
     margin-left: 20px;
 }
 div.logo img
 {
-    width: 301px; height: auto;
+    width: 100%; height: auto;
+    max-width: 301px;
 }
 
 div.logo h2
 {
-    width: 450px;
+    width: 100%;
+    max-width: 466px;
     font-size: 28px;
     font-weight: normal;
     margin-left: 30px; margin-bottom: 90px;
@@ -26,7 +28,7 @@ div.logo h2
 
 div.login
 {
-    width: 400px; height: auto;
+    width: 100%; height: auto;
     padding: 15px;
     text-align: center;
     background-color: white;
