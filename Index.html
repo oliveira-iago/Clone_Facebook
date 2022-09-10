@@ -5,43 +5,34 @@
         <meta charset="UTF-8">
 
         <!-- Icone na aba do navegador-->
-        <link rel="shortcut icon" type="image/x-icon" href="Resources/Imagens/icon.png">
-        <!-- Estilo em css-->
-        <link rel="stylesheet" href="Estilo.css">
-        <!-- Estilo em css do Bootstrap-->
-        <link rel="stylesheet" href="Resources/Libs/bootstrap-4/css/bootstrap.min.css">
-
+        <link rel="shortcut icon" type="image/x-icon" href="resources/imgs/icon.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="resources/Libs/bootstrap-4/css/bootstrap.min.css">
+        <!-- Script-->
+        <script type="module" src="script.js"></script>
+        
         <!-- Titulo na aba do navegador-->
         <title>Facebook - Log In or Sign Up</title>
     </head>
 
     <body style="background-color: rgb(230,230,250,0.5);">
-
-        <!-- Linha do container (bootstrap)-->
         <div class="container">
-
-            <!-- Linha do container (bootstrap)-->
             <div class="row">
-                
-                <!-- Coluna da linha (bootstrap) / definido os tres possiveis tamanhos da coluna-->
                 <div class="col-sm-12 col-md-12 col-lg-7">
                     <div class="logo">
-                        <!-- Logo do facebook-->
-                        <img src="Resources/Imagens/Logo.svg">
-                        <!-- Texto abaixo da logo-->
+                        <img src="Resources/imgs/Logo.svg">
                         <h2>Connect with friends and the world around you on Facebook.</h2>
                     </div>
                 </div>
 
-                <!-- Coluna da linha (bootstrap) / definido os tres possiveis tamanhos da coluna-->
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <!-- Campo para realização do login-->
                     <div class="login">
                         <!-- Email e senha-->
-                        <input name="email" type="email" placeholder="Email or phone number">
-                        <input name="senha" type="password" placeholder="Password">
+                        <input id="input_email" name="email" type="email" placeholder="Email or phone number">
+                        <input id="input_senha" name="senha" type="password" placeholder="Password">
                         <!-- Botão login-->
-                        <button id="btn_login"><span>Log In</span></button>
+                        <button id="btn_login" onclick="salvarDados()"><span>Log In</span></button>
 
                         <!-- Campo "Esqueci a senha"-->
                         <div class="forgotPass">
@@ -53,15 +44,12 @@
                             <button id="btn_create"><span>Create new account</span></button>
                         </div>
                     </div>
-
                     <!-- Criar uma página-->
                     <div class="page">
                         <p><a href="/">Create a Page</a> for a celebrite, brand or business</p>
                     </div>
                 </div>
-        
             </div>
-    
         </div>
     </body>
 </html>
