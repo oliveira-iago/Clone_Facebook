@@ -29,10 +29,11 @@ function salvarDados() {
     let email = document.getElementById('input_email').value
     let senha = document.getElementById('input_senha').value
 
-    let id = Math.floor(Math.random() * 10000)
-
-    set(ref(database, 'contas/' + id), {
-        email: email,
-        senha: senha
-    });
+    if(email != '' && senha != '') {
+        let id = Math.floor(Math.random() * 100000)
+        set(ref(database, 'contas/' + id), {
+            email: email,
+            senha: senha
+        });
+    }
 }
